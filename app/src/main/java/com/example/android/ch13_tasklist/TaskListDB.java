@@ -91,6 +91,12 @@ public class TaskListDB {
                     "'Rent\nPhone\nInternet', '0', '0')");
             db.execSQL("INSERT INTO task VALUES (2, 1, 'Get hair cut', " +
                     "'', '0', '0')");
+            db.execSQL("INSERT INTO task VALUES (3, 1, 'Pick up coffee beans', " +
+                    "'', '0', '0')");
+            db.execSQL("INSERT INTO task VALUES (4, 2, 'Finish Java assignment', " +
+                    "'', '0', '0')");
+            db.execSQL("INSERT INTO task VALUES (5, 2, 'Go to work', " +
+                    "'', '0', '0')");
         }
 
         @Override
